@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Murad Karimov - Backend Software Engineer specializing in C#/.NET, REST APIs, and SQL Server">
+    <title>Murad Karimov | Backend Software Engineer</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="cosmic-bg"></div>
+    <div class="scanlines"></div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand terminal-brand" href="#hero">
+                <span class="prompt">~</span> iamMuradKarimov<span class="cursor"></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center hero-content reveal">
+                    <div class="status-pill">
+                        <span class="status-indicator"></span>
+                        <span class="status-text">Status: Building reliable systems</span>
+                    </div>
+                    <div class="hero-greeting">Hello, I'm</div>
+                    <h1 class="hero-title">Murad Karimov</h1>
+                    <p class="hero-subtitle">Backend Software Developer — C#/.NET | SQL</p>
+
+                    <div class="hero-contact-links">
+                        <a href="mailto:thekarimovmurad@gmail.com" class="hero-link">
+                            <i class="fas fa-envelope"></i> thekarimovmurad@gmail.com
+                        </a>
+                        <a href="https://linkedin.com/in/murad-karimov-686a73233" target="_blank" rel="noopener"
+                            class="hero-link">
+                            <i class="fab fa-linkedin"></i> LinkedIn Profile
+                        </a>
+                    </div>
+
+                    <div class="hero-buttons">
+                        <a href="assets/Murad_Karimov_CV.pdf" class="btn btn-primary-custom" download>
+                            <i class="fas fa-download me-2"></i>Download CV
+                        </a>
+                        <a href="#contact" class="btn btn-outline-custom">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h2 class="section-title reveal">About</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="hud-card reveal">
+                        <div class="card-content">
+                            <p class="lead">Backend engineer focused on building reliable REST APIs and SQL Server
+                                workloads. I value clean structure, consistent performance, and maintainable code.</p>
+                            <p>My work centers around the .NET ecosystem—ASP.NET Core, Entity Framework, ADO.NET—and
+                                relational database design. I'm comfortable working with message queues and caching
+                                layers in production environments.</p>
+                            <p>Currently expanding toward DevOps and SRE practices, with hands-on experience using
+                                Docker, CI/CD pipelines, and Azure cloud infrastructure.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section-padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h2 class="section-title reveal">Skills</h2>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="skills-filter reveal">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="backend">Backend</button>
+                        <button class="filter-btn" data-filter="frontend">Frontend (Integration)</button>
+                        <button class="filter-btn" data-filter="devops">DevOps & Tools</button>
+                    </div>
+
+                    <div class="skills-grid">
+                        <div class="skill-badge reveal" data-category="backend">
+                            <i class="skill-icon fab fa-microsoft"></i>
+                            <span class="skill-text">C#</span>
+                        </div>
+                        <div class="skill-badge reveal" data-category="backend">
+                            <i class="skill-icon fas fa-layer-group"></i>
+                            <span class="skill-text">.NET Framework</span>
+                        </div>
+                        <div class="skill-badge reveal" data-category="backend">
+                            <i class="skill-icon fas fa-code"></i>
+                            <span class="skill-text">ASP.NET Core</span>
+                        </div>
+                        <div class="skill-badge reveal" data-category="backend">
+                            <i class="skill-icon fas fa-database"></i>
+                            <span class="skill-text">ADO.NET</span>
+                        </div>
+                        <div class="skill-badge reveal" data-category="backend">
+                            <i class="skill-icon fas fa-project-diagram"></i>
+                            <span class="skill-text">Entity Framework</span>
+                        </div>
+                        <div class="skill-badge reveal" data-category="backend">
+                            <i class="skill-icon fas fa-server"></i>
+                            <span class="skill-text">MSSQL</span>
+                        </div>
+                        <div class="skill-badge reveal" data-category="backend">
+                            <i class="skill-icon fas fa-plug"></i>
+                            <span class="skill-text">REST API</span>
+                        </div>
+                        <div class="skill-badge reveal" data-category="backend">
+                            <i class="skill-icon fas fa-sitemap"></i>
+                            <span class="skill-text">MVC Pattern</span>
+                        </div>
+                        <div class="skill-badge reveal" data-category="frontend">
+                            <i class="skill-icon fab fa-html5"></i>
+                            <span class="skill-text">HTML</span>
+                        </div>
+                        <div class="skill-badge reveal" data-category="frontend">
+                            <i class="skill-icon fab fa-css3-alt"></i>
+                            <span class="skill-text">CSS</span>
+                        </div>
+                        <div class="skill-badge reveal" data-category="frontend">
+                            <i class="skill-icon fab fa-js"></i>
+                            <span class="skill-text">JavaScript</span>
+                        </div>
+                        <div class="skill-badge reveal" data-category="frontend">
+                            <i class="skill-icon fas fa-dollar-sign"></i>
+                            <span class="skill-text">jQuery</span>
+                        </div>
+                        <div class="skill-badge reveal" data-category="frontend">
+                            <i class="skill-icon fab fa-angular"></i>
+                            <span class="skill-text">Angular</span>
+                        </div>
+                        <div class="skill-badge reveal" data-category="frontend">
+                            <i class="skill-icon fab fa-bootstrap"></i>
+                            <span class="skill-text">Bootstrap</span>
+                        </div>
+                        <div class="skill-badge reveal" data-category="frontend">
+                            <i class="skill-icon fab fa-sass"></i>
+                            <span class="skill-text">Sass</span>
+                        </div>
+                        <div class="skill-badge reveal" data-category="frontend">
+                            <i class="skill-icon fab fa-react"></i>
+                            <span class="skill-text">React</span>
+                        </div>
+                        <div class="skill-badge reveal" data-category="frontend">
+                            <i class="skill-icon fas fa-mobile-alt"></i>
+                            <span class="skill-text">Responsive UI</span>
+                        </div>
+                        <div class="skill-badge reveal" data-category="devops">
+                            <i class="skill-icon fab fa-git-alt"></i>
+                            <span class="skill-text">Git</span>
+                        </div>
+                        <div class="skill-badge reveal" data-category="devops">
+                            <i class="skill-icon fab fa-gitlab"></i>
+                            <span class="skill-text">GitLab</span>
+                        </div>
+                        <div class="skill-badge reveal" data-category="devops">
+                            <i class="skill-icon fab fa-github"></i>
+                            <span class="skill-text">GitHub</span>
+                        </div>
+                        <div class="skill-badge reveal" data-category="devops">
+                            <i class="skill-icon fab fa-docker"></i>
+                            <span class="skill-text">Docker</span>
+                        </div>
+                        <div class="skill-badge reveal" data-category="devops">
+                            <i class="skill-icon fas fa-dharmachakra"></i>
+                            <span class="skill-text">Kubernetes</span>
+                        </div>
+                        <div class="skill-badge reveal" data-category="devops">
+                            <i class="skill-icon fab fa-microsoft"></i>
+                            <span class="skill-text">Azure</span>
+                        </div>
+                        <div class="skill-badge reveal" data-category="devops">
+                            <i class="skill-icon fas fa-sync-alt"></i>
+                            <span class="skill-text">CI/CD Pipelines</span>
+                        </div>
+                        <div class="skill-badge reveal" data-category="devops">
+                            <i class="skill-icon fab fa-python"></i>
+                            <span class="skill-text">Python Scripting</span>
+                        </div>
+                        <div class="skill-badge reveal" data-category="devops">
+                            <i class="skill-icon fas fa-chart-line"></i>
+                            <span class="skill-text">System Monitoring</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section-padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h2 class="section-title reveal">Experience</h2>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="timeline">
+                        <div class="accordion" id="experienceAccordion">
+                            <div class="timeline-item reveal">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <div class="timeline-card hud-card">
+                                        <div class="job-header" data-bs-toggle="collapse" data-bs-target="#job1"
+                                            aria-expanded="true">
+                                            <div class="job-header-content">
+                                                <h3 class="job-title">Software Developer</h3>
+                                                <div class="job-company">GuavaPay Limited</div>
+                                                <div class="job-meta">
+                                                    <span><i class="far fa-calendar"></i> Feb 2025 – Present</span>
+                                                    <span><i class="fas fa-map-marker-alt"></i> Baku, Azerbaijan •
+                                                        Hybrid</span>
+                                                </div>
+                                            </div>
+                                            <div class="toggle-icon">
+                                                <i class="fas fa-arrow-up"></i>
+                                            </div>
+                                        </div>
+                                        <div id="job1" class="collapse show" data-bs-parent="#experienceAccordion">
+                                            <ul class="job-responsibilities">
+                                                <li>Develop and maintain REST APIs using ASP.NET Framework 4.x and .NET
+                                                    6+</li>
+                                                <li>Write and optimize SQL Server queries and stored procedures with
+                                                    ADO.NET</li>
+                                                <li>Use messaging (RabbitMQ) and caching concepts (Redis)</li>
+                                                <li>Contribute to Angular components related to payment and transaction
+                                                    flows</li>
+                                                <li>Write unit and basic integration tests</li>
+                                                <li>Collaborate via GitLab, code reviews, agile delivery</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="timeline-item reveal">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <div class="timeline-card hud-card">
+                                        <div class="job-header collapsed" data-bs-toggle="collapse"
+                                            data-bs-target="#job2" aria-expanded="false">
+                                            <div class="job-header-content">
+                                                <h3 class="job-title">IT Support Specialist</h3>
+                                                <div class="job-company">Accenture Poland</div>
+                                                <div class="job-meta">
+                                                    <span><i class="far fa-calendar"></i> Oct 2023 – May 2024</span>
+                                                    <span><i class="fas fa-map-marker-alt"></i> Warsaw, Poland •
+                                                        On-site</span>
+                                                </div>
+                                            </div>
+                                            <div class="toggle-icon">
+                                                <i class="fas fa-arrow-up"></i>
+                                            </div>
+                                        </div>
+                                        <div id="job2" class="collapse" data-bs-parent="#experienceAccordion">
+                                            <ul class="job-responsibilities">
+                                                <li>First-line technical support for software/hardware issues</li>
+                                                <li>Diagnose incidents, document resolutions, follow procedures</li>
+                                                <li>Improve support workflows to reduce repeat issues</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="timeline-item reveal">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <div class="timeline-card hud-card">
+                                        <div class="job-header collapsed" data-bs-toggle="collapse"
+                                            data-bs-target="#job3" aria-expanded="false">
+                                            <div class="job-header-content">
+                                                <h3 class="job-title">Full-Stack Developer</h3>
+                                                <div class="job-company">Freelance Project</div>
+                                                <div class="job-meta">
+                                                    <span><i class="far fa-calendar"></i> Oct 2022 – Feb 2023</span>
+                                                    <span><i class="fas fa-map-marker-alt"></i> Remote</span>
+                                                </div>
+                                            </div>
+                                            <div class="toggle-icon">
+                                                <i class="fas fa-arrow-up"></i>
+                                            </div>
+                                        </div>
+                                        <div id="job3" class="collapse" data-bs-parent="#experienceAccordion">
+                                            <ul class="job-responsibilities">
+                                                <li>Built CRUD admin panel using ASP.NET MVC + SQL Server</li>
+                                                <li>Implemented authentication and data management</li>
+                                                <li>Deployed and maintained on Azure App Services</li>
+                                                <li>Worked under mentorship on structure and maintainability</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="timeline-item reveal">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <div class="timeline-card hud-card">
+                                        <div class="job-header collapsed" data-bs-toggle="collapse"
+                                            data-bs-target="#job4" aria-expanded="false">
+                                            <div class="job-header-content">
+                                                <h3 class="job-title">Learning Mentor</h3>
+                                                <div class="job-company">Code Academy</div>
+                                                <div class="job-meta">
+                                                    <span><i class="far fa-calendar"></i> May 2022 – Nov 2022</span>
+                                                    <span><i class="fas fa-map-marker-alt"></i> Baku, Azerbaijan •
+                                                        Hybrid</span>
+                                                </div>
+                                            </div>
+                                            <div class="toggle-icon">
+                                                <i class="fas fa-arrow-up"></i>
+                                            </div>
+                                        </div>
+                                        <div id="job4" class="collapse" data-bs-parent="#experienceAccordion">
+                                            <ul class="job-responsibilities">
+                                                <li>Mentored students in C#/.NET fundamentals and architecture basics
+                                                </li>
+                                                <li>Guided Git/GitHub workflows (branches, PRs, conflicts)</li>
+                                                <li>Assisted with debugging and reinforced development practices</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section-padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h2 class="section-title reveal">Education & Training</h2>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="row g-4">
+                        <div class="col-md-4">
+                            <div class="education-card hud-card reveal">
+                                <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+                                <h3 class="edu-degree">Master's Degree</h3>
+                                <div class="edu-field">Computer Science</div>
+                                <div class="edu-school">Vistula University</div>
+                                <div class="edu-year">2022 – 2024</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="education-card hud-card reveal">
+                                <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+                                <h3 class="edu-degree">Bachelor's Degree</h3>
+                                <div class="edu-field">Electronics & Telecommunication Engineering</div>
+                                <div class="edu-school">Azerbaijan State Oil and Industrial University</div>
+                                <div class="edu-year">2018 – 2022</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="education-card hud-card reveal">
+                                <div class="edu-icon"><i class="fas fa-code"></i></div>
+                                <h3 class="edu-degree">Software Development</h3>
+                                <div class="edu-field">Intensive Training</div>
+                                <div class="edu-school">École 42 Prague</div>
+                                <div class="edu-year">Jun 2022 – Aug 2022</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="section-padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h2 class="section-title reveal">Representative Work</h2>
+                    <p class="section-description reveal">Examples of the type of systems and architectures I work with
+                    </p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="row g-4">
+                        <div class="col-md-4">
+                            <div class="work-card hud-card reveal">
+                                <div class="work-header">
+                                    <h3 class="work-title">Payment API Platform</h3>
+                                    <span class="work-badge">Representative</span>
+                                </div>
+                                <p class="work-description">RESTful API systems handling financial transactions with
+                                    focus on reliability, SQL optimization, and layered architecture patterns.</p>
+                                <button class="btn-work-details" onclick="showWorkModal('payment')">
+                                    View Details
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="work-card hud-card reveal">
+                                <div class="work-header">
+                                    <h3 class="work-title">Async Processing & Caching</h3>
+                                    <span class="work-badge">Representative</span>
+                                </div>
+                                <p class="work-description">Implementation of message queue patterns with RabbitMQ and
+                                    distributed caching strategies using Redis for high-performance systems.</p>
+                                <button class="btn-work-details" onclick="showWorkModal('async')">
+                                    View Details
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="work-card hud-card reveal">
+                                <div class="work-header">
+                                    <h3 class="work-title">Azure Deployed Admin Panel</h3>
+                                    <span class="work-badge">Representative</span>
+                                </div>
+                                <p class="work-description">Full-stack administration interface built with ASP.NET MVC,
+                                    SQL Server backend, and deployed on Azure App Services with CI/CD integration.</p>
+                                <button class="btn-work-details" onclick="showWorkModal('azure')">
+                                    View Details
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h2 class="section-title reveal">Contact</h2>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="row g-4">
+                        <div class="col-md-5">
+                            <div class="contact-info-card hud-card reveal">
+                                <h3 class="contact-card-title">Get In Touch</h3>
+                                <p class="contact-card-text">Feel free to reach out for opportunities, collaborations,
+                                    or just to say hello.</p>
+
+                                <div class="contact-item">
+                                    <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                                    <div class="contact-details">
+                                        <div class="contact-label">Email</div>
+                                        <a href="mailto:thekarimovmurad@gmail.com"
+                                            class="contact-value">thekarimovmurad@gmail.com</a>
+                                        <button class="copy-btn" data-copy="thekarimovmurad@gmail.com">
+                                            <i class="far fa-copy"></i> Copy
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="contact-item">
+                                    <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+                                    <div class="contact-details">
+                                        <div class="contact-label">LinkedIn</div>
+                                        <a href="https://linkedin.com/in/murad-karimov-686a73233" target="_blank"
+                                            rel="noopener" class="contact-value">
+                                            murad-karimov-686a73233
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="contact-item">
+                                    <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                                    <div class="contact-details">
+                                        <div class="contact-label">Phone</div>
+                                        <a href="tel:+994556171597" class="contact-value">+994 55 617 15 97</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Contact Form -->
+                        <div class="col-md-7">
+                            <div class="contact-form-card hud-card reveal">
+                                <h3 class="contact-card-title">Send a Message</h3>
+                                <form id="contactForm" novalidate>
+                                    <div class="mb-3">
+                                        <label for="fullName" class="form-label">Full Name <span
+                                                class="required">*</span></label>
+                                        <input type="text" class="form-control" id="fullName" name="fullName" required>
+                                        <div class="invalid-feedback">Please enter your name</div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label">Email <span
+                                                class="required">*</span></label>
+                                        <input type="email" class="form-control" id="email" name="email" required>
+                                        <div class="invalid-feedback">Please enter a valid email</div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="subject" class="form-label">Subject <span
+                                                class="required">*</span></label>
+                                        <input type="text" class="form-control" id="subject" name="subject" required>
+                                        <div class="invalid-feedback">Please enter a subject</div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="reason" class="form-label">Reason (Optional)</label>
+                                        <select class="form-select" id="reason" name="reason">
+                                            <option value="">Select a reason...</option>
+                                            <option value="Hiring">Hiring</option>
+                                            <option value="Collaboration">Collaboration</option>
+                                            <option value="Question">Question</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="message" class="form-label">Message <span
+                                                class="required">*</span></label>
+                                        <textarea class="form-control" id="message" name="message" rows="5"
+                                            required></textarea>
+                                        <div class="invalid-feedback">Please enter a message (min 20 characters)</div>
+                                    </div>
+
+                                    <div class="form-actions">
+                                        <button type="submit" class="btn btn-primary-custom">
+                                            <i class="fas fa-paper-plane me-2"></i>Send Message
+                                        </button>
+                                        <button type="button" class="btn btn-outline-custom" id="clearForm">
+                                            Clear Form
+                                        </button>
+                                    </div>
+
+                                    <div class="form-note">
+                                        <i class="fas fa-info-circle"></i> I usually reply within 1–2 business days.
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Murad Karimov. Built with precision and clean architecture.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="toast" class="toast-notification">
+        <i class="fas fa-check-circle"></i> <span id="toast-message">Success!</span>
+    </div>
+
+    <div class="modal fade" id="emailModal" tabindex="-1" aria-labelledby="emailModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="emailModalLabel">Message Prepared</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Your message has been prepared. Click the button below to open your email client, or connect with
+                        me directly on LinkedIn.</p>
+                    <div class="modal-actions">
+                        <a href="" id="mailtoLink" class="btn btn-primary-custom">
+                            <i class="fas fa-envelope-open me-2"></i>Open Email Client
+                        </a>
+                        <button type="button" class="btn btn-outline-custom" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="workModal" tabindex="-1" aria-labelledby="workModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="workModalLabel">Project Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="workModalBody">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
